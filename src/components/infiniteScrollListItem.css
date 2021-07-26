@@ -1,0 +1,22 @@
+h1 {
+  color: #212529;
+  font-size: 18px;
+  line-height: 1.166666666666667;
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 12px;
+}
+span {
+  font-size: 18px;
+  line-height: 1.166666666666667;
+  color: #212529;
+}
+.idContainer,
+.emailContainer {
+  margin-bottom: 12px;
+}
+.commentContainer h1 {
+  display: block;
+  margin-right: 0;
+  margin-bottom: 2px;
+}

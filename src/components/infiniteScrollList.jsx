@@ -1,5 +1,17 @@
 import React from "react";
-
-const InfiniteScrollList = (props) => <div>aaa</div>;
+import "./infiniteScrollList.css";
+import InfiniteScrollListItem from "./infiniteScrollListItem";
+const InfiniteScrollList = (props) => {
+  return (
+    <>
+      <ul>
+        <InfiniteScrollListItem />
+      </ul>
+      <ul>
+        <InfiniteScrollListItem />
+      </ul>
+    </>
+  );
+};
 
 export default InfiniteScrollList;
