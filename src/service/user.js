@@ -6,7 +6,6 @@ class User {
     const { data } = await this.httpClient.get(
       `?_page=${pageCount}&_limit=${limitCount}`
     );
-    console.log(data);
     return data;
   }
 }

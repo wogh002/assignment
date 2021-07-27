@@ -20,7 +20,6 @@ function App({ user }) {
     if (loading) {
       const observer = new IntersectionObserver(
         (entries) => {
-          console.log(entries);
           entries[0].isIntersecting && loadUser();
         },
         { threshold: 1 }
