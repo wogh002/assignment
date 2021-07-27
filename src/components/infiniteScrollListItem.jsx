@@ -1,19 +1,19 @@
 import React from "react";
 import "./infiniteScrollListItem.css";
-const InfiniteScrollListItem = (props) => {
+const InfiniteScrollListItem = ({ user }) => {
   return (
     <li>
       <div className="idContainer">
         <h1>Comment Id </h1>
-        <span>123</span>
+        <span>{user.id}</span>
       </div>
       <div className="emailContainer">
         <h1>Email </h1>
-        <span>Aimee.@gmailcom</span>
+        <span>{user.email}</span>
       </div>
       <div className="commentContainer">
         <h1>Comment</h1>
-        <span>asdasdasdasdasdasd</span>
+        <span>{user.body}</span>
       </div>
     </li>
   );
